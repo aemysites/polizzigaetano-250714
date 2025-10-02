@@ -11,6 +11,7 @@
  */
 
 import core from '@actions/core';
+import { pathToFileURL } from 'url';
 
 const HLX_ADM_API = 'https://admin.hlx.page';
 const OP_LABEL = {
@@ -19,6 +20,72 @@ const OP_LABEL = {
   publish: 'publish',
   both: 'preview and/or publish',
 };
+
+/**
+ * Utility function to retry HTTP operations with exponential backoff for 5xx errors
+ * @param {Function} operation - Async function that returns a fetch response
+ * @param {string} context - Context for logging (e.g., publishPath)
+ * @param {number} maxRetries - Maximum number of retry attempts (default: 5)
+ * @returns {Promise<Response>} - The fetch response
+ */
+async function retryHttpOperation(operation, context, maxRetries = 5) {
+  const retryableStatuses = [429, 500, 502, 503, 504];
+  let lastError;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
+    try {
+      const response = await operation();
+
+      // If response is ok or not a retryable error, return it
+      if (response.ok || !retryableStatuses.includes(response.status)) {
+        if (attempt > 0) {
+          if (response.ok) {
+            core.info(`✓ HTTP operation succeeded on attempt ${attempt + 1} for ${context}`);
+          } else {
+            core.info(`✓ HTTP operation was not retried on attempt ${attempt + 1} for ${context}`);
+          }
+        }
+        return response;
+      }
+
+      // Handle retryable errors (429, 5xx)
+      if (attempt < maxRetries) {
+        const retryAfter = response.headers.get('Retry-After');
+        let waitTime = 2 ** attempt * 1000; // Exponential backoff: 1s, 2s, 4s, 8s, 16s
+
+        // Respect Retry-After header if present
+        if (retryAfter) {
+          const retryAfterMs = parseInt(retryAfter, 10) * 1000;
+          if (!Number.isNaN(retryAfterMs) && retryAfterMs > 0) {
+            waitTime = retryAfterMs;
+          }
+        }
+
+        core.info(`⏳ HTTP operation failed with ${response.status} for ${context}. Retrying in ${waitTime}ms (attempt ${attempt + 1}/${maxRetries + 1})`);
+        await new Promise((resolve) => {
+          setTimeout(resolve, waitTime);
+        });
+        // Continue to next iteration instead of using continue statement
+      } else {
+        // Max retries exceeded
+        core.warning(`❌ HTTP operation failed after ${maxRetries + 1} attempts for ${context}: ${response.status} ${response.statusText}`);
+        return response;
+      }
+    } catch (error) {
+      lastError = error;
+      if (attempt < maxRetries) {
+        const waitTime = 2 ** attempt * 1000;
+        core.info(`⏳ HTTP operation threw error for ${context}. Retrying in ${waitTime}ms (attempt ${attempt + 1}/${maxRetries + 1}): ${error.message}`);
+        await new Promise((resolve) => {
+          setTimeout(resolve, waitTime);
+        });
+      }
+    }
+  }
+
+  // If we get here, all retries failed with errors
+  throw lastError || new Error(`HTTP operation failed after ${maxRetries + 1} attempts for ${context}`);
+}
 
 /**
  * Simple function to remove a path's final extension, if it exists.
@@ -49,15 +116,20 @@ async function operateOnPath(endpoint, path, operation = 'preview') {
   } else if (path.endsWith('.xlsx')) {
     publishPath = `${removeExtension(publishPath)}.json`;
   }
+
   try {
-    const resp = await fetch(`${endpoint}${publishPath}`, {
-      method: 'POST',
-      body: '{}',
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Expose-Headers': 'x-error',
-      },
-    });
+    const resp = await retryHttpOperation(
+      () => fetch(`${endpoint}${publishPath}`, {
+        method: 'POST',
+        body: '{}',
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Expose-Headers': 'x-error',
+        },
+      }),
+      publishPath,
+    );
+
     if (!resp.ok) {
       const xError = resp.headers.get('x-error');
       core.debug(`.${operation} operation failed on ${publishPath}: ${resp.status} : ${resp.statusText} : ${xError}`);
@@ -164,4 +236,10 @@ export async function run() {
   }
 }
 
-await run();
+// Export for testing
+export { retryHttpOperation };
+
+// Only run if this is the main module (not being imported for testing)
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  await run();
+}
