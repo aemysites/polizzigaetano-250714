@@ -1,0 +1,22 @@
+name: "Move DA Content to Backup"
+description: "Move DA content to a backup folder using the DA Admin API"
+author: "Experience Catalyst"
+inputs:
+  org:
+    description: "The DA organization"
+    required: true
+  repo:
+    description: "The DA repository"
+    required: true
+  path:
+    description: "The path to backup (default: '' -> everything)"
+    required: false
+    default: ""
+outputs:
+  backup_folder_name:
+    description: "The name of the created backup folder"
+  error_message:
+    description: "Error message if the operation failed"
+runs:
+  using: 'node20'
+  main: 'sta-da-move-to-backup.js'

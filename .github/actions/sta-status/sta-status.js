@@ -74,8 +74,19 @@ export async function run() {
   const apiKey = process.env.AEMY_API_KEY;
 
   try {
+    // Validate JSON inputs before parsing
+    if (!callbackUrls || (typeof callbackUrls === 'string' && callbackUrls.trim() === '')) {
+      core.info(`Missing callback_urls in ${name} call. Skipping status call: "${message}".`);
+      return;
+    }
+
+    if (!context || (typeof context === 'string' && context.trim() === '')) {
+      core.info(`Missing context in ${name} call. Skipping status call: "${message}".`);
+      return;
+    }
+
     const coordinatorCallbacks = JSON.parse(callbackUrls);
-    if (!context || !coordinatorCallbacks[statusType] || !message || !apiKey) {
+    if (!coordinatorCallbacks[statusType] || !message || !apiKey) {
       core.info(`Missing or misconfigured parameters in ${name} call. Skipping status call: "${message}".`);
       return;
     }

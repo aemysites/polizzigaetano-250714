@@ -21,6 +21,107 @@ import unzipper from 'unzipper';
 const CONTENT_DIR_NAME = 'contents';
 const ZIP_NAME = 'import.zip';
 
+// Retry configuration - can be overridden via environment variables
+const DOWNLOAD_MAX_RETRIES = parseInt(process.env.STA_DOWNLOAD_MAX_RETRIES, 10) || 3;
+const DOWNLOAD_BASE_DELAY = parseInt(process.env.STA_DOWNLOAD_BASE_DELAY, 10) || 2000;
+
+/**
+ * Custom error class that preserves the HTTP response for retry logic
+ */
+class HttpError extends Error {
+  constructor(message, response) {
+    super(message);
+    this.name = 'HttpError';
+    this.response = response;
+  }
+}
+
+/**
+ * Get delay from Retry-After header
+ * @param {Response} response - Fetch response object
+ * @returns {number} Delay in milliseconds, or null if header is not present/invalid
+ */
+function getRetryAfterDelay(response) {
+  const retryAfter = response.headers.get('Retry-After');
+  if (!retryAfter) {
+    return null;
+  }
+
+  let millisToSleep = Math.round(parseFloat(retryAfter) * 1000);
+  if (Number.isNaN(millisToSleep)) {
+    const parsedDate = Date.parse(retryAfter);
+    if (Number.isNaN(parsedDate)) {
+      return null; // Invalid date string
+    }
+    millisToSleep = Math.max(0, parsedDate - Date.now());
+  }
+
+  return millisToSleep > 0 ? millisToSleep : null;
+}
+
+/**
+ * Utility function to retry download operations with exponential backoff for transient errors
+ * @param {Function} operation - Async function that performs the download
+ * @param {string} context - Context for logging (e.g., download URL)
+ * @param {number} maxRetries - Maximum number of retry attempts
+ * @returns {Promise<any>} - The result of the operation
+ */
+async function retryDownloadOperation(operation, context, maxRetries = DOWNLOAD_MAX_RETRIES) {
+  const retryableStatuses = [429, 502, 503, 504, 520, 521, 522, 523, 524];
+  let lastError;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
+    try {
+      const result = await operation();
+      if (attempt > 0) {
+        core.info(`✓ Download operation succeeded on attempt ${attempt + 1} for ${context}`);
+      }
+      return result;
+    } catch (error) {
+      lastError = error;
+
+      // Check if this is a retryable error
+      let isRetryable = false;
+      let retryAfterDelay = null;
+
+      if (error.name === 'TypeError') {
+        // Network errors (fetch failed)
+        isRetryable = true;
+      } else if (error.name === 'HttpError' && error.response) {
+        // HTTP errors with response object
+        isRetryable = retryableStatuses.includes(error.response.status);
+        if (isRetryable) {
+          retryAfterDelay = getRetryAfterDelay(error.response);
+        }
+      } else {
+        // Legacy: Check if this is a fetch error with a retryable status in the message
+        const isRetryableHttpError = error.message && (
+          retryableStatuses.some((status) => error.message.includes(status.toString()))
+        );
+        isRetryable = isRetryableHttpError;
+      }
+
+      if (attempt < maxRetries && isRetryable) {
+        // Calculate delay: prefer Retry-After header, fall back to exponential backoff
+        const baseDelay = DOWNLOAD_BASE_DELAY;
+        const waitTime = retryAfterDelay !== null ? retryAfterDelay : baseDelay * (2 ** attempt);
+        const delaySource = retryAfterDelay !== null ? 'Retry-After header' : 'exponential backoff';
+
+        core.info(`⏳ Download operation failed for ${context}. Retrying in ${waitTime}ms (attempt ${attempt + 1}/${maxRetries + 1}) using ${delaySource}: ${error.message}`);
+        await new Promise((resolve) => {
+          setTimeout(resolve, waitTime);
+        });
+      } else {
+        // Non-retryable error or max retries exceeded
+        break;
+      }
+    }
+  }
+
+  // If we get here, all retries failed
+  throw lastError || new Error(`Download operation failed after ${maxRetries + 1} attempts for ${context}`);
+}
+
 /**
  * Create a temporary directory, with a 'contents' directory in it.
  * @returns {string} The path to the temporary directory.
@@ -46,7 +147,7 @@ function createTempDirectory() {
 async function fetchZip(downloadUrl, zipDestination) {
   const response = await fetch(downloadUrl);
   if (!response.ok) {
-    throw new Error(`Failed to download zip. Did the url expire? ${response.status} ${response.statusText}`);
+    throw new HttpError(`Failed to download zip. Check if the url expired and try again. Contact support if the problem persists. ${response.status} ${response.statusText}`, response);
   }
 
   try {
@@ -65,22 +166,16 @@ async function fetchZip(downloadUrl, zipDestination) {
 }
 
 /**
- * Get the list of paths from a filter.xml file.
- * @param {string} xmlString
- * @returns {string[]}
+ * Fetch a zip file with retry logic for transient failures.
+ * @param {string} downloadUrl - The URL of the zip file to download.
+ * @param {string} zipDestination - The full file path where the zip file will be saved.
+ * @returns {Promise<string>} - The path to the saved zip file.
  */
-function getFilterPathsSimple(xmlString) {
-  const lines = xmlString.split('\n');
-  const paths = [];
-
-  for (const line of lines) {
-    const match = line.match(/^\s*<filter\s+root="([^"]+)"><\/filter>\s*$/);
-    if (match) {
-      paths.push(match[1]);
-    }
-  }
-
-  return paths;
+async function fetchZipWithRetry(downloadUrl, zipDestination) {
+  return retryDownloadOperation(
+    () => fetchZip(downloadUrl, zipDestination),
+    downloadUrl,
+  );
 }
 
 /**
@@ -96,15 +191,8 @@ async function extractZip(zipPath, contentsDir) {
     totalFiles = directory.files.length;
     let extractedFiles = 0;
     let nextProgress = 20;
-    let zipFilePath;
     for (const entry of directory.files) {
       const fullPath = path.join(contentsDir, entry.path);
-      if (extractedFiles < 3 && entry.path.toLowerCase().endsWith('.zip')) {
-        core.setOutput('xwalk_zip', entry.path);
-        core.info(`✅ cp zip: ${entry.path}`);
-        zipFilePath = entry.path;
-      }
-
       if (entry.type === 'Directory') {
         fs.mkdirSync(fullPath, { recursive: true });
       } else {
@@ -124,36 +212,6 @@ async function extractZip(zipPath, contentsDir) {
         core.info(`⏳ Extraction progress: ${progress}% (${extractedFiles}/${totalFiles} files)`);
         nextProgress += 20;
       }
-    }
-
-    if (zipFilePath) {
-      const contentPackageZipPath = path.join(contentsDir, zipFilePath);
-      core.info(`✅ Current Path: ${contentPackageZipPath}`);
-
-      fs.createReadStream(contentPackageZipPath)
-        .pipe(unzipper.ParseOne('META-INF/vault/filter.xml'))
-        .pipe(fs.createWriteStream('filter.xml'))
-        .on('finish', () => {
-          // eslint-disable-next-line no-console
-          console.log('filter.xml extracted successfully');
-
-          // Read the extracted file
-          fs.readFile('filter.xml', 'utf8', (err, data) => {
-            if (err) {
-              // eslint-disable-next-line no-console
-              console.error('Error reading extracted file:', err);
-            } else {
-              // eslint-disable-next-line no-console
-              console.log('Filter XML content:', data);
-              const paths = getFilterPathsSimple(data);
-              core.setOutput('content_paths', paths);
-            }
-          });
-        })
-        .on('error', (error) => {
-          // eslint-disable-next-line no-console
-          console.error('Error extracting filter.xml:', error);
-        });
     }
   } catch (error) {
     throw new Error(`Failed to extract zip: ${error.message || error}`);
@@ -182,10 +240,11 @@ export async function run() {
     const tempDir = createTempDirectory();
     zipDestination = path.join(tempDir, ZIP_NAME);
     const contentsDir = path.join(tempDir, CONTENT_DIR_NAME);
-    await fetchZip(downloadUrl, zipDestination);
+    await fetchZipWithRetry(downloadUrl, zipDestination);
     const fileCount = await extractZip(zipDestination, contentsDir);
 
     core.setOutput('temp_dir', tempDir);
+    core.setOutput('zip_contents_path', contentsDir);
     core.setOutput('file_count', fileCount);
   } catch (error) {
     core.warning(`❌ Error: ${error.message}`);
@@ -203,3 +262,6 @@ export async function run() {
 }
 
 await run();
+
+// Export functions for testing
+export { retryDownloadOperation, fetchZipWithRetry };

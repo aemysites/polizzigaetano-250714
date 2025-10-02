@@ -11,8 +11,8 @@ inputs:
   folder_id:
     description: "The SharePoint destination folder ID."
     required: true
-  zip_dir:
-    description: "The folder holding the zip and its contents."
+  zip_contents_path:
+    description: "The folder holding the zip contents."
     required: true
   delay:
     description: "The delay between file uploads in milliseconds to avoid throttling. Default: 2000"
@@ -27,6 +27,8 @@ outputs:
     description: "The number of upload failures."
   upload_failed_list:
     description: "The list of files that failed to upload."
+  upload_failed_locked:
+    description: "The list of files that failed to upload because they were locked."
   error_message:
     description: "Error message if the operation could not be completed"
 runs:

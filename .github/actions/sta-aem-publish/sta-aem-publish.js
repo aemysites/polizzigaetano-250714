@@ -13,6 +13,21 @@
 import core from '@actions/core';
 
 /**
+ * A custom error class for AEM errors.
+ */
+class AEMError extends Error {
+  /**
+   * @param {string} type - Preview or Publish
+   * @param {string} message - A description of the error.
+   */
+  constructor(type, message) {
+    super(message); // sets the `message` property on Error
+    this.name = 'AEMError'; // error name for stack traces
+    this.type = type;
+  }
+}
+
+/**
  * Replicates content to preview using Universal Editor Service
  * @param {string} accessToken - JWT access token
  * @param {string} aemUrl - AEM instance URL
@@ -45,30 +60,25 @@ async function replicateToPreview(accessToken, aemUrl, contentPaths) {
 
   core.info(`📋 Pages being previewed:\n${contentPaths.join('\n')}`);
 
-  try {
-    const response = await fetch(previewUrl, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-      body: JSON.stringify(payload),
-    });
+  const response = await fetch(previewUrl, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`HTTP ${response.status}: ${errorText}`);
-    }
-
-    const result = await response.json();
-    core.info('✅ Replication to preview completed successfully');
-
-    return result;
-  } catch (error) {
-    core.error(`❌ Replication to preview failed: ${error.message}`);
-    throw error;
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new AEMError('Preview', `HTTP ${response.status}: ${errorText}`);
   }
+
+  const result = await response.json();
+  core.info('✅ Replication to preview completed successfully');
+
+  return result;
 }
 
 /**
@@ -76,11 +86,11 @@ async function replicateToPreview(accessToken, aemUrl, contentPaths) {
  * @param {string} accessToken - JWT access token
  * @param {string} aemUrl - AEM instance URL
  * @param {string[]} contentPaths - Array of content paths to replicate
- * @param {string} replicateType - Type of replication (activate, deactivate, delete)
  * @returns {Promise<Object>}
  */
 async function replicateToPublish(accessToken, aemUrl, contentPaths) {
-  const replicateUrl = `${aemUrl}/bin/replicate`;
+  const url = new URL(aemUrl);
+  const replicateUrl = `${url.origin}/bin/replicate`;
   core.info(`🔗 Using AEM replicate endpoint: ${replicateUrl}`);
 
   // Create form data for the replicate endpoint
@@ -98,30 +108,25 @@ async function replicateToPublish(accessToken, aemUrl, contentPaths) {
 
   core.info(`📋 Form data: ${formData.toString()}`);
 
-  try {
-    const response = await fetch(replicateUrl, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/x-www-form-urlencoded',
-        Accept: 'text/html,application/json',
-      },
-      body: formData.toString(),
-    });
+  const response = await fetch(replicateUrl, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Accept: 'text/html,application/json',
+    },
+    body: formData.toString(),
+  });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`HTTP ${response.status}: ${errorText}`);
-    }
-
-    const result = await response.text();
-    core.info('✅ Replication to publish completed successfully');
-
-    return { success: true, response: result };
-  } catch (error) {
-    core.error(`❌ Replication to publish failed: ${error.message}`);
-    throw error;
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new AEMError('Publish', `HTTP ${response.status}: ${errorText}`);
   }
+
+  const result = await response.text();
+  core.info('✅ Replication to publish completed successfully');
+
+  return { success: true, response: result };
 }
 
 /**
@@ -148,10 +153,11 @@ async function replicateContent(accessToken, aemUrl, contentPaths, isPreview = f
  * @returns {Promise<void>}
  */
 export async function run() {
+  let targetType;
   try {
     const accessToken = core.getInput('access_token');
     const aemUrl = core.getInput('aem_url');
-    const contentPathsInput = core.getInput('content_paths');
+    const contentPathsInput = core.getInput('page_paths');
     const isPreview = core.getInput('is_preview') === 'true';
 
     // Validate inputs
@@ -171,7 +177,7 @@ export async function run() {
       throw new Error('No valid content paths provided');
     }
 
-    const targetType = isPreview ? 'preview' : 'publish';
+    targetType = isPreview ? 'preview' : 'publish';
     core.info(`🚀 Starting AEM replication to ${targetType}`);
     core.info(`📍 AEM URL: ${aemUrl}`);
     core.info(`# ${targetType}: ${paths.length} content paths`);
@@ -182,10 +188,11 @@ export async function run() {
 
     core.info(`🎉 AEM replication to ${targetType} completed successfully`);
   } catch (error) {
-    const errorMessage = `Failed to replicate content: ${error.message}`;
-    core.error(errorMessage);
+    const errorMessage = `Failed to replicate content for ${targetType}. ${
+      !(error instanceof AEMError) ? error.message : ''
+    }`;
+    core.error(error.message);
     core.setOutput('error_message', errorMessage);
-    process.exit(1);
   }
 }
 
