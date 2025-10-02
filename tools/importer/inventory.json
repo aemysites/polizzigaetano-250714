@@ -1,0 +1,774 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "height": 137
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-21-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-13-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-06-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-07-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-08-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(51, 51, 51) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-06-7e9139b6c846235a13fac9d91747da0ff3a91319",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]",
+          "section": "section-10"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+          "section": "section-11"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-05-d930cf3964763fb439b57e8b14ef89ae4e75e03a",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-12-ce275b80a2d16e3c220ad216ef259b94f76471cd",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 4,
+      "source": "Header",
+      "target": "Header (header4)",
+      "key": "header4",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-19-cd6e7943d23c339dec7ca33061a65452fa9e67b7",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-20-55db2bc143450337b30e9b268558aeb257cfa4aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/form[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-07-15404add4f447533f50aba88002f48a280e5a135",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-08-780a4338360d7567eb9f065bcc3cff55c5c32da1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 8,
+      "source": "Hero",
+      "target": "Hero (hero8)",
+      "key": "hero8",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-15-e395df527496165a49ed50949fcec61f2dfb22b1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-05-686622bc7a2a89a0895709199f6520985bbdf899",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-13-42da370404dbb64c0f13a601c0ae63f6dddefcd8",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[8]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-05-686622bc7a2a89a0895709199f6520985bbdf899",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 12,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages12)",
+      "key": "cardsNoImages12",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-05-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 13,
+      "source": "Cards",
+      "target": "Cards (cards13)",
+      "key": "cards13",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-10-42da370404dbb64c0f13a601c0ae63f6dddefcd8",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[8]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-07-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-04-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 15,
+      "source": "Columns",
+      "target": "Columns (columns15)",
+      "key": "columns15",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-10-dfabeb915c492bd5d12a7198e776e3a3070cc7db",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 16,
+      "source": "Header",
+      "target": "Header (header16)",
+      "key": "header16",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 18,
+      "source": "Hero",
+      "target": "Hero (hero18)",
+      "key": "hero18",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-09-259355e587fe76a7ab29e2e8ac232495270fd090",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-11-d19295053d5be2b1b55577b19fdd1f96d40c7b7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-14-29beddeae5975327b784eda31c9abd8f02834621",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-17-9ca5d57f903fd1e70119621d63d163a58258618b",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-07-d19295053d5be2b1b55577b19fdd1f96d40c7b7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-04-adb7cd6a589a494f1a88b8b05699a4b87b97b6d3",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-06-8d28bf1be151fa8767f4f184d136b33a1a60ad8a",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 19,
+      "source": "Hero",
+      "target": "Hero (hero19)",
+      "key": "hero19",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+          "section": "section-12"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages20)",
+      "key": "cardsNoImages20",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-02-8271e0a3036952db2a460fb7f202d54e22ff48e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-04-cc6a981a9d31553dad606179543e159ea18a9275",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-06-6947cec465085484bd194d569f207fa7a5cac4d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-08-1deb18685e71fba0e4c7171b08ab0f395f58329b",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-16-7dd21d695d5e91ea5dcde342aca0579d73bab757",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-18-b782fcb30c7ced1a75bffbc7a639fec094674721",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-21-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-09-af5b1a4120a76ed35d0f781c7739e294deb8d52d",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-11-c3da55b8faf78d825b5eb9cf3a1a86d0524aa071",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-12-1cb3e3f0fa669acef99462fd9119e15db314f28b",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-13-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-04-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-06-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-06-8d28bf1be151fa8767f4f184d136b33a1a60ad8a",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-07-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+      "uuid": "ee4aecb5-04-adb7cd6a589a494f1a88b8b05699a4b87b97b6d3",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+      "uuid": "ee4aecb5-08-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(0, 162, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 6
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 7
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 26
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(95, 96, 98) url(\"https://www.nuffieldhealth.com/local/cb/e0/6bd63e234528ad392ab0df437158/paying-for-your-treatment-yourself.png\") no-repeat scroll 50% 0% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-5",
+      "background": "rgb(95, 96, 98) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-6",
+      "background": "rgb(51, 51, 51) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 7
+    },
+    {
+      "name": "section-7",
+      "background": "rgb(223, 223, 223) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-8",
+      "background": "rgb(1, 143, 1) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-9",
+      "background": "rgb(95, 96, 98) url(\"https://www.nuffieldhealth.com/local/d1/bc/7161dd5a45d89d9afb55ae9b8c12/join-a-gym-now-and-save-50-until-2026.png\") no-repeat scroll 50% 0% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-10",
+      "background": "rgb(226, 226, 226) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-11",
+      "background": "rgb(95, 96, 98) url(\"https://www.nuffieldhealth.com/local/0d/37/060008d34f28807498b56efdb335/private-medical-insurance-hero-1.png\") no-repeat scroll 50% 0% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-12",
+      "background": "rgb(95, 96, 98) url(\"https://www.nuffieldhealth.com/local/35/c5/049b982e4344992bcadde3281b16/ways-to-pay.png\") no-repeat scroll 50% 0% / cover padding-box border-box",
+      "count": 1
+    }
+  ]
+}

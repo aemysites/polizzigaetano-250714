@@ -1,0 +1,48 @@
+{
+  "templates": [
+    {
+      "name": "'Portfolio Showcase'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "uuid": "ee4aecb59a0a994b23cedf28be80079a78802e6d"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "uuid": "cf551ef0e5ab2e384ac73d8171f8d265c8057674"
+        }
+      ]
+    },
+    {
+      "name": "'Product Listing'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "uuid": "e149aa7aef10762db32dcf79b65a02dc33440f66"
+        }
+      ]
+    },
+    {
+      "name": "'Dashboard Template'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "uuid": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861"
+        }
+      ]
+    },
+    {
+      "name": "Gallery Page",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "uuid": "b95f52746f153ae871260d81e6cbe9e8e6140fc3"
+        }
+      ]
+    }
+  ]
+}
