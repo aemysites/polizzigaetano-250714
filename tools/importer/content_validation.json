@@ -1,0 +1,765 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "height": 137
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-21-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-13-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-06-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-07-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-08-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(51, 51, 51) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-06-7e9139b6c846235a13fac9d91747da0ff3a91319",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]",
+          "section": "section-10"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-02-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]",
+          "section": "section-9"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+          "section": "section-11"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-05-d930cf3964763fb439b57e8b14ef89ae4e75e03a",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-12-ce275b80a2d16e3c220ad216ef259b94f76471cd",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 4,
+      "source": "Header",
+      "target": "Header (header4)",
+      "key": "header4",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-00-ec260e70fd0d109a7b00561467202bbb97cfb965",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-19-cd6e7943d23c339dec7ca33061a65452fa9e67b7",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-8"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-20-55db2bc143450337b30e9b268558aeb257cfa4aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/form[1]"
+        }
+      ],
+      "key": "unknown6"
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-07-15404add4f447533f50aba88002f48a280e5a135",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-08-780a4338360d7567eb9f065bcc3cff55c5c32da1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 8,
+      "source": "Hero",
+      "target": "Hero (hero8)",
+      "key": "hero8",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-15-e395df527496165a49ed50949fcec61f2dfb22b1",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-05-686622bc7a2a89a0895709199f6520985bbdf899",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-13-42da370404dbb64c0f13a601c0ae63f6dddefcd8",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[8]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-05-686622bc7a2a89a0895709199f6520985bbdf899",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 12,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages12)",
+      "key": "cardsNoImages12",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-05-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 13,
+      "source": "Cards",
+      "target": "Cards (cards13)",
+      "key": "cards13",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-05-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-10-42da370404dbb64c0f13a601c0ae63f6dddefcd8",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[8]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-07-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-04-e5c971916a6909419b5a081423608605a5614bfa",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]",
+          "section": "section-7"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 15,
+      "source": "Columns",
+      "target": "Columns (columns15)",
+      "key": "columns15",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-10-dfabeb915c492bd5d12a7198e776e3a3070cc7db",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]/div[1]/div[1]/div[1]/div[2]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 16,
+      "source": "Header",
+      "target": "Header (header16)",
+      "key": "header16",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+          "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+          "uuid": "cf551ef0-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-01-07c557d6636fc1961324aaf292245586a3c75f16",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-03-369b023818fcd7fd0e61768c127fb264507e7c08",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 18,
+      "source": "Hero",
+      "target": "Hero (hero18)",
+      "key": "hero18",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-09-259355e587fe76a7ab29e2e8ac232495270fd090",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[6]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-6"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-11-d19295053d5be2b1b55577b19fdd1f96d40c7b7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-14-29beddeae5975327b784eda31c9abd8f02834621",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+          "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+          "uuid": "06b83da3-17-9ca5d57f903fd1e70119621d63d163a58258618b",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/",
+          "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+          "uuid": "b95f5274-07-d19295053d5be2b1b55577b19fdd1f96d40c7b7c",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+          "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+          "uuid": "e149aa7a-04-adb7cd6a589a494f1a88b8b05699a4b87b97b6d3",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-06-8d28bf1be151fa8767f4f184d136b33a1a60ad8a",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 19,
+      "source": "Hero",
+      "target": "Hero (hero19)",
+      "key": "hero19",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+          "section": "section-12"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages20)",
+      "key": "cardsNoImages20",
+      "instances": [
+        {
+          "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+          "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+          "uuid": "ee4aecb5-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-02-8271e0a3036952db2a460fb7f202d54e22ff48e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-04-cc6a981a9d31553dad606179543e159ea18a9275",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-06-6947cec465085484bd194d569f207fa7a5cac4d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-08-1deb18685e71fba0e4c7171b08ab0f395f58329b",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-16-7dd21d695d5e91ea5dcde342aca0579d73bab757",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-18-b782fcb30c7ced1a75bffbc7a639fec094674721",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "urlHash": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861",
+      "uuid": "06b83da3-21-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-09-af5b1a4120a76ed35d0f781c7739e294deb8d52d",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[7]/div[1]/div[1]/div[1]/div[2]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-11-c3da55b8faf78d825b5eb9cf3a1a86d0524aa071",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[9]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-12-1cb3e3f0fa669acef99462fd9119e15db314f28b",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[10]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "urlHash": "b95f52746f153ae871260d81e6cbe9e8e6140fc3",
+      "uuid": "b95f5274-13-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-04-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "urlHash": "cf551ef0e5ab2e384ac73d8171f8d265c8057674",
+      "uuid": "cf551ef0-06-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-06-8d28bf1be151fa8767f4f184d136b33a1a60ad8a",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "urlHash": "e149aa7aef10762db32dcf79b65a02dc33440f66",
+      "uuid": "e149aa7a-07-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+      "uuid": "ee4aecb5-04-adb7cd6a589a494f1a88b8b05699a4b87b97b6d3",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[1]/div[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "urlHash": "ee4aecb59a0a994b23cedf28be80079a78802e6d",
+      "uuid": "ee4aecb5-08-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]",
+      "section": "section-6"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip to content Search Login Hospitals Gyms Services Advice Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Hospitals The highest standards of clinical care in state-of-the-art facilities, with Consultant-led treatment, spotlessly clean rooms, and a team of dedicated and experienced nurses. Find a hospital Our Hospitals Treatments Tests and scans Conditions Book your consultation For Healthcare Professionals Payment and Insurance Ways to pay Paying for yourself Medical insurance Personal medical loans Pricing Supporting information Patient information NHS Patients Medical assurance Case reviews and procedural changes Handling complaints Open events Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Find out if you benefit from a discounted membership . Gyms The most important thing to us is getting you fit and healthy with our network of fitness experts and cutting-edge facilities. Join a gym Our Gyms Our Locations Gyms in London Book a tour Membership Pricing and Membership Discounts Vitality Discount AXA Health Discount Advice for New Members Services and Facilities Gym services Exercise classes Swimming Lessons & Classes Personal Training Squash Courts Cr\u00e8che Find out if you benefit from a discounted membership . Take a look at our quality and safety measures (including PSIRF) for our clinical services. Services Nuffield Health looks after your health and wellbeing in ways that go beyond getting you fit and getting you back on your feet, that's what makes us specialists in you. View all services Connected Care Health Assessments Physiotherapy Private GP Service Pathology Direct Mental Health Support Personal Training Nuffy Bear Day Nursery Medical Centres Take a look at our quality and safety measures (including PSIRF) for our clinical services. Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Advice Use our list of health topics to reach your destination faster. View all topics Health Topics Back and neck Cancer Cosmetic surgery Mental health Family health Men's health Women's health Stomach, bowel and bladder Vision and eye surgery Fertility treatment Prostate health Weight loss advice Sports training and injury Ski health Skin Joint pain Menopause Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Join a gym now and save 50% until 2026 Get the rest of the year half price when you start a 12-month gym membership and enjoy fully-equipped gyms, classes, sauna, steam, swim and more. Join today Terms and Conditions and Exclusions apply Book to see a consultant Making an appointment to suit you has never been easier. Choose your consultant or let us help find your specialist - all from your device. Book online now Learn to swim with us With a variety of swimming lessons for all ages and abilities, we offer plenty of ways to stay active and have fun in the water \u2014 whether you're a gym member or not. Book your lessons NEW: 1-hour Personal Training packs Try out Nuffield Health Personal Training one hour at a time. A great way to see if personal training is for you, perfect your techniques, or to fit in an extra session around your regular workouts. Buy now Gyms Gyms Hospitals Hospitals Physiotherapy Physiotherapy Health Assessments Health Assessments GP Services GP Services Personal Training Personal Training Nurseries Nurseries Swimming lessons Swimming lessons Pathology Direct Pathology Direct Nuffield Health 24/7 Nuffield Health 24/7 Programmes For All Programmes For All Careers Careers Our locations Find your nearest Nuffield Health Your location or use my current location Central and Midlands East London North Scotland South East South West and Wales List view Map view Cambridge Hospital 4 Trumpington Road Cambridge CB2 8AF 01223 370 922 Contact us Bristol Hospital 3 Clifton Hill Clifton Bristol BS8 1BN 0117 906 4870 Contact us Brentwood Hospital Shenfield Road Brentwood CM15 8EH 01277 695695 Contact us Manchester Diagnostic Suite Nelson Street Manchester M13 9NQ 0161 272 5890 Contact us Wessex Hospital Winchester Road Chandlers Ford Eastleigh SO53 2DW 02380 266 377 Contact us Warwickshire Hospital The Chase Old Milverton Lane Leamington Spa CV32 6RW 01926 427971 Contact us Newcastle Hospital Clayton Road Newcastle-upon-Tyne NE2 1JP 01912 816 131 Contact us Chichester Hospital 78 Broyle Road Chichester PO19 6WB 01243 530600 Contact us Taunton Hospital Staplegrove Elm Taunton TA2 6AN 01823 286 991 Contact us York Hospital Haxby Road York YO31 8TA 01372 233890 Contact us Chester Hospital Wrexham Road Chester CH4 7QP 01244 680 444 Contact us Ipswich Hospital Foxhall Road Ipswich IP4 5SW 01473 279100 Contact us Guildford Hospital Stirling Road Guildford GU2 7RF 01483 555 800 Contact us North Staffordshire Hospital Clayton Road Newcastle-under-Lyme ST5 4DB 01782 432227 Contact us Shrewsbury Hospital Longden Road Shrewsbury SY3 9DP 01743 282500 Contact us Tunbridge Wells Hospital Kingswood Road Tunbridge Wells TN2 4UL 01892 531 111 Contact us Cheltenham Hospital Hatherley Lane Cheltenham, Gloucestershire GL51 6SY 01242 246500 Contact us Glasgow Hospital 25 Beaconsfield Road Glasgow G12 0PJ 0141 334 9441 Contact us Leeds Hospital 2 Leighton Street Leeds LS1 3EB 0113 3227251 Contact us Cardiff and Vale Hospital The Vale Hospital Hensol Castle Park Vale of Glamorgan CF72 8JX 02920 836700 Contact us Bournemouth Hospital 67 Lansdowne Road Bournemouth BH1 1RW 01202 291866 Contact us Exeter Hospital Wonford Road Exeter EX2 4UG 01392 276 591 Contact us Leicester Hospital Scraptoft Lane Leicester LE5 1HY 0116 2743 753 - option 3 Contact us Woking Hospital Shores Road Woking GU21 4BY 01483 227800 Contact us Brighton Hospital Warren Road Brighton BN2 6DX 01273 624 488 Contact us Hereford Hospital Venns Lane Hereford HR1 1DF 01432 355 131 Contact us Wolverhampton Hospital Wood Road Tettenhall Wolverhampton WV6 8LE 01902 754177 Contact us Tees Hospital Junction Road Norton Stockton on Tees TS20 1PX 01642 360 100 Contact us Oxford Hospital Beech Road Headington Oxford OX3 7RP 01865 307777 Contact us Derby Hospital Rykneld Road Derby DE23 4SN 01332 540100 Contact us Plymouth Hospital Derriford Road Plymouth PL6 8BG 01752 775 861 Contact us Haywards Heath Hospital Burrell Road Haywards Heath RH16 1UD 01444 456999 Contact us Aberdeen Gym Justice Mill Lane Aberdeen AB11 6EQ 01224 588789 Book a tour Aylesbury Gym 1-2 Trenchard Street (off Coldharbour Lane), Fairford Leys Aylesbury HP19 7AA 01296 487627 Book a tour Baltimore Wharf Gym 14 Baltimore Wharf London E14 9FT 020 7093 0277 Book a tour Battersea Gym Sheepcote Lane (off Latchmere Road) Battersea SW11 5BW 020 7228 4400 Book a tour Birmingham Central Gym Broadway Plaza 220, Ladywood Middleway Birmingham B16 8LP 0121 423 5700 Book a tour Birmingham Rubery Gym 20, Ashbrook Drive Rubery, Rednal Birmingham B45 9FN 0121 453 0000 Book a tour Bishop's Stortford Gym Anchor Street Bishop's Stortford CM23 3BP 01279 507002 Book a tour Bloomsbury Gym Mecklenburgh Place Goodenough College London WC1N 2AY 020 7713 8810 Book a tour Bolton Gym 7-10 Eagley Brook Way The Valley Bolton BL1 8TS 01204 360400 Book a tour Bridgend Gym Waterton Retail Park Waterton Road Bridgend CF31 3YW 01656 644160 Book a tour Bristol Gym 83, Queens Road Clifton Bristol BS8 1QS 01179 252 538 Book a tour Bristol North Gym Hunts Ground Road Stoke Gifford Bristol BS34 8HN 0117 974 9740 Book a tour Bromley Gym Hayes Lane Bromley BR2 9EF 020 8466 2800 Book a tour Brondesbury Park Gym Sidmouth Road Willesden London NW2 5JY 020 8451 7863 Book a tour Cambridge Gym 213, Cromwell Road Cambridge CB1 3BA 01223 245200 Book a tour Cannock Gym East Cannock Road Cannock WS12 1LU 01543 426531 Book a tour Cheam Gym Peaches Close (off Sandy Lane) Cheam SM2 7BJ 020 8770 7858 Book a tour Chelmsford Gym Unit 6 - Riverside Retail Park 38 Victoria Road Chelmsford CM1 1AN 01245 254400 Book a tour Chester Gym Wrexham Road Chester CH4 7QP 01244 689830 Book a tour Chesterfield Gym Alma Leisure Park Derby Road Chesterfield S40 2EZ 01246 272226 Book a tour Chichester Gym Chichester Gate (off Stockbridge Road) Chichester PO19 8EL 01243 788678 Book a tour Chigwell Gym Woolston Hall Abridge Road Chigwell IG7 6BX 0208 498 1600 Book a tour Chingford Gym 3 Larkswood Leisure Park 175 New Road London E4 9EY 020 8523 7474 Book a tour Chislehurst Gym A20 Sidcup By-Pass Chislehurst London BR7 6RP 0208 308 3900 Book a tour City Gym 4, Cousin Lane London EC4R 3XJ 020 728 30101 Book a tour Cottingley Gym Cottingley Manor Cottingley New Road Bingley BD16 1TZ 01274 565741 Book a tour Covent Garden Gym 9, Endell Street London WC2H 9SA 020 724 02446 Book a tour Crawley Gym Crabbet Park Turners Hill Road Crawley RH10 4ST 01293 884488 Book a tour Croydon Central Gym 44 Surrey Street Grants Entertainment Centre Croydon CR0 1RJ 0208 686 3700 Book a tour Croydon Gym 619 Purley Way 1 Colonnades Croydon CR0 4RJ 02086 802 228 Book a tour Cwmbran Gym Wilcrick Place Avondale Road Cwmbran NP44 1TX 01633 877822 Book a tour Derby Gym Derbyshire County Cricket Club Nottingham Road Derby DE21 6DA 01332 287900 Book a tour Didsbury Gym Unit 8, Parrswood Entertainment Centre Wilmslow Road Manchester M20 5PG 0161 249 5600 Book a tour Doncaster Gym Sidings Court White Rose Way Doncaster DN4 5NU 01302 365588 Book a tour Ealing Gym 5th Floor, Ealing Broadway Centre Town Square London W5 5JY 0208 579 9433 Book a tour East Kilbride Gym 4 The Boardwalk Stroud Road East Kilbride G75 0YW 01355 236601 Book a tour Edinburgh Gym 15, New Mart Road Edinburgh EH14 1RL 0131 444 0555 Book a tour Edinburgh Fountain Park Gym Fountain Park, 65-95 Dundee Street Fountainbridge Edinburgh EH11 1AF 0131 221 8000 Book a tour Edinburgh Omni Gym 61/10 Leith Street Edinburgh EH1 3AU 0131 550 1650 Book a tour Enfield Gym Tower Point 52 Sydney Road Enfield EN2 6SZ 0208 370 4100 Book a tour Farnborough Gym Links Way Farnborough GU14 0NU 01252 379300 Book a tour Farnham Gym Weybourne Road Farnham GU9 9EL 01252 747500 Book a tour Friern Barnet Gym Princess Park Manor 264 Royal Drive London N11 3BG 0208 362 8444 Book a tour Fulham Gym Stevenage Road Bishop's Park Fulham SW6 6PF 020 7471 1200 Book a tour Glasgow Central Gym 141, Finnieston Street Glasgow G3 8HB 0141 243 2200 Book a tour Glasgow Giffnock Gym 82, Braidholm Road Giffnock Glasgow G46 6ED 0141 637 6600 Book a tour Glasgow West End Gym 11 Minerva Way Finnieston Glasgow G3 8AU 0141 222 6700 Book a tour Gloucester Gym Centre Severn Barnwood Gloucester GL4 3HR Members: 01452 634 400 / Sales: 01452 634 444 Book a tour Gosforth Gym Gosforth Park Way Gosforth Newcastle-upon-Tyne NE12 8ET 0191 213 0070 Book a tour Guildford Gym Railton Road Queen Elizabeth Park Guildford GU2 9LX 01483 540 250 Book a tour Guiseley Gym Otley Road White Cross Leeds LS20 8LY 01943 877284 Book a tour Harrogate Gym Hornbeam Park Road Harrogate HG2 8RA 01423 810858 Book a tour Hemel Hempstead Gym Maylands Avenue Hemel Hempstead Industrial Estate Hemel Hempstead HP2 4NW 01442 282950 Book a tour Hendon Gym Central Circus, 260 Hendon Way Hendon London NW4 3NL 0208 203 9421 Book a tour Hertford Gym Madford Retail Park Ware Road Hertford SG13 7RQ 01992 584765 Book a tour Hull Gym Kingston Park Hull HU1 2TX 01482 321191 Book a tour Ilford Gym 68-90 Clements Road Ilford IG1 1BP 020 8478 7111 Book a tour Islington Gym 27 Essex Road Islington London N1 2SD 0207 288 8200 Book a tour Kingston Gym Richmond Road Kingston upon Thames KT2 5EN 0208 481 6000 Book a tour Leatherhead Gym The Crescent Leatherhead KT22 8DY 01372 375220 Book a tour Leeds Gym Unit 21, The Light The Headrow Leeds LS1 8TL 0113 233 7500 Book a tour Leicester Gym 1, Byford Way Leicester LE4 0DZ 0116 261 2333 Book a tour Letchworth Garden City Gym Letchworth Lane (next to Letchworth Hall Hotel) Letchworth Garden City SG6 3NP 01462 681075 Book a tour Liverpool Gym 1 Riverside Drive Liverpool L3 4EN 0151 707 6000 Book a tour Manchester Printworks Gym 27 Withy Grove Manchester M4 2BS 0161 831 9922 Book a tour Medway Gym Medway Valley Leisure Park Chariot Way Rochester ME2 2SS 01634 292900 Book a tour Milngavie Gym Strathblane Road Milngavie Glasgow G62 8HJ 0141 955 2400 Book a tour Milton Keynes Gym 602 Marlborough Gate Avebury Boulevard Milton Keynes MK9 3XS 01908 298 800 Book a tour Moorgate Gym 1, Ropemaker Street London EC2Y 9AW 020 7920 6200 Book a tour Newbury Gym The Racecourse Newbury RG14 7PN 01635 569944 Book a tour Norbury Gym 1212 London Road Norbury London SW16 4DN 020 8679 2226 Book a tour Northampton Gym Walter Tull Way, Sixfields Leisure Northampton NN5 5QL 01604 751444 Book a tour Norwich Gym Barrack Street Norwich NR3 1TS 01603 760600 Book a tour Nottingham Gym Plains Road Mapperley Nottingham NG3 5RH 0115 8220 306 Book a tour Nuneaton Gym Bermuda Leisure Park St David's Way Nuneaton CV10 7SG 02476 370007 Book a tour Paddington Gym 2, Sheldon Square Paddington Central, Paddington London W2 6EZ 020 7289 4686 Book a tour Plymouth (Barbican) Gym Barbican Leisure Park Barbican Approach Plymouth PL4 0LG 01752 265355 Book a tour Portsmouth Gym Alexandra Park Alex Way, Northern Parade Portsmouth PO2 9PB 02392 664748 Book a tour Preston Gym The Capitol Centre Walton-Le-Dale Preston PR5 4AW 01772 834036 Book a tour Reading Gym 240, South Oak Way Lime Square, Green Park Reading RG2 6UL 0118 9750550 Book a tour Romford Gym 4 The Brewery Waterloo Road Romford RM1 1AU 01708 759600 Book a tour Rugby Gym Junction 1 Retail Park Leicester Road Rugby CV21 1RW 01788 554300 Book a tour Sheffield Gym Napier Street Sheffield S11 8HA 0114 276 5333 Book a tour Shipley Gym 2 Fred Atkinson Way Otley Road Shipley BD17 7HE 01274 532227 Book a tour Shoreditch Gym 1-6 Bateman's Row London EC2A 3HH 020 7739 6688 Book a tour St Albans Gym Highfield Park Drive St Albans AL4 0AH 01727 816 100 Book a tour Stockley Park Gym The Arena Club Stockley Park East Uxbridge UB11 1AA 0208 587 3700 Book a tour Stoke Gym George Eastham Avenue Trentham Lakes North Stoke ST4 4TU 01782 330077 Book a tour Stoke Poges Gym Wexham Street Stoke Poges SL3 6NB 01753 663666 Book a tour Sunbury Gym The Avenue Sunbury-on-Thames TW16 5EQ 01932 755755 Book a tour Surbiton Gym Simpson Way Surbiton KT6 4ER 020 8335 2900 Book a tour Swindon Gym Greenbridge Retail Park Garrard Way Swindon SN3 3SQ 01793 422211 Book a tour Taunton Gym 153-156 East Reach Taunton TA1 3HT 01823 447 000 Book a tour Telford Gym Telford Forge Retail Park Colliers Way, Old Park Telford TF3 4AG 01952 293 444 Book a tour Plymouth (The Devonshire, Derriford) Gym 10, Plymbridge Lane Derriford Plymouth PL6 8BD 01752 237000 Book a tour The Oxfordshire Gym The Oxfordshire 269c Woodstock Road Oxford OX2 7NZ 01865 318300 Book a tour Tunbridge Wells Gym Knightspark Leisure Park Off Longfield Road Tunbridge Wells TN2 3UW 01892 774 000 Book a tour Twickenham Gym Stoop Memorial Ground Langhorn Drive (off Chertsey Road) Twickenham TW2 7SX 020 8892 2251 Book a tour Wakefield Gym Calder Island Way Denby Dale Road Wakefield WF2 7AW 01924 376111 Book a tour Wandsworth Gym King George's Park Burr Road Wandsworth SW18 4SQ 020 8874 1155 Book a tour Wandsworth Southside Gym Southside Shopping Centre Buckhold Road London SW18 4TQ 0208 704 0400 Book a tour Warwick Gym Macbeth Approach Gallagher Business Park Warwick CV34 6AD 01926 314142 Book a tour West Byfleet Gym Pyrford Road West Byfleet GU22 8UQ 01932 353481 Book a tour Weston-super-Mare Gym 168 Locking Road Weston-super-Mare BS23 3HG 01934 410350 Book a tour Wimbledon Gym 37 The Broadway Wimbledon London SW19 1QB 020 8947 9627 Book a tour Wokingham Gym 1, The Plaza Denmark Street Wokingham RG40 2LD 01189 120500 Book a tour Wolverhampton Gym Wolverhampton Business Park Broadlands Wolverhampton WV10 6TA 01902 623 900 Book a tour Worcester Gym Droitwich Road Perdiswell Park Worcester WR3 7SN 01905 453607 Book a tour Yeovil Gym Yeovale Leisure Park Old Station Road Yeovil BA20 1NP 01935 415633 Book a tour London West End Medical Centre 39, Queen Anne Street London W1G 9AZ 0207 935 0894 Contact us Wharf Medical Centre South Quay Plaza 185 Marsh Wall London E14 9SH 03001231434 Contact us Manchester Institute of Health and Performance 299 Alan Turing Way Manchester M11 3BS 0161 521 9200 Contact us Barbican Gym 97 Aldersgate Street Barbican London EC1A 4JP 020 3038 8410 Join now Barbican Medical Centre 100 Aldersgate Street Barbican London EC1A 4LX 020 3038 8400 Contact us Nuffield Health at St Bartholomew's Hospital 38 Giltspur Street London EC1A 7BS 020 3386 9000 Contact us Edinburgh Hospital 40 Colinton Road Edinburgh EH10 5BT 0131 447 2340 Edinburgh Hospital The Holly Hospital High Road Buckhurst Hill Essex IG9 5HX 020 8505 3311 The Holly Hospital Highgate Hospital 17-19 View Road Highgate London N6 4DJ 020 8341 4182 Highgate Hospital Parkside Hospital 53 Parkside Wimbledon London SW19 5NX 020 8971 8000 Parkside Hospital View more"
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip to content Search Login Hospitals Gyms Services Advice Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Hospitals The highest standards of clinical care in state-of-the-art facilities, with Consultant-led treatment, spotlessly clean rooms, and a team of dedicated and experienced nurses. Find a hospital Our Hospitals Treatments Tests and scans Conditions Book your consultation For Healthcare Professionals Payment and Insurance Ways to pay Paying for yourself Medical insurance Personal medical loans Pricing Supporting information Patient information NHS Patients Medical assurance Case reviews and procedural changes Handling complaints Open events Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Find out if you benefit from a discounted membership . Gyms The most important thing to us is getting you fit and healthy with our network of fitness experts and cutting-edge facilities. Join a gym Our Gyms Our Locations Gyms in London Book a tour Membership Pricing and Membership Discounts Vitality Discount AXA Health Discount Advice for New Members Services and Facilities Gym services Exercise classes Swimming Lessons & Classes Personal Training Squash Courts Cr\u00e8che Find out if you benefit from a discounted membership . Take a look at our quality and safety measures (including PSIRF) for our clinical services. Services Nuffield Health looks after your health and wellbeing in ways that go beyond getting you fit and getting you back on your feet, that's what makes us specialists in you. View all services Connected Care Health Assessments Physiotherapy Private GP Service Pathology Direct Mental Health Support Personal Training Nuffy Bear Day Nursery Medical Centres Take a look at our quality and safety measures (including PSIRF) for our clinical services. Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Advice Use our list of health topics to reach your destination faster. View all topics Health Topics Back and neck Cancer Cosmetic surgery Mental health Family health Men's health Women's health Stomach, bowel and bladder Vision and eye surgery Fertility treatment Prostate health Weight loss advice Sports training and injury Ski health Skin Joint pain Menopause Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Healthcare professionals and GPs Refer a patient Practising privileges GMC revaildation Diagnostic and specialist services Careers at Nuffield Health Events for Healthcare Professionals Our aim is for you and your patients to have the best possible experience in a safe and caring environment. As a not-for-profit organisation, we are unique as a private healthcare provider. We re-invest all financial surplus back into our facilities and the people who work with us, for the benefit of our patients. We combine our hospitals, medical centres, diagnostic units and gyms, in order to deliver complete health and wellbeing to our patients and members. In 2016, \u2018One\u2019 Nuffield Health was announced. This joined up strategy places our members, patients and customers at the very centre of everything we do. It\u2019s about how we can work as a single, connected, seamless entity and about helping our customers and patients achieve that wonderful feeling of being in good health. This means one organisation, supporting patients and customers across their whole health and wellbeing journey. Importantly, we are one team with one goal. We are constantly reviewing the way we work with you and have created this section of our website to help you work efficiently and effectively with Nuffield Health. Refer a patient Referring your patient for a wide range of health and wellbeing services at Nuffield Health is quick and simple. Find out more here. Practising privileges At Nuffield Health, we\u2019re committed to developing high standards of clinical care and governance, and we know that the way to achieve this is through a close partnership with our consultants. Diagnostic and specialist services At Nuffield Health, we not only provide medical services for the consumer market, but we also provide a range of services to the healthcare industry. As with all our services, the specialised healthcare services follow our usual exacting standards. GMC Revalidation & Appraisal Nuffield Health is a Designated Body for the purpose of GMC Revalidation for Medical Practitioners who either hold Practising Privileges at a Nuffield Health hospital and work independently without NHS employment or Medical Practitioners employed by Nuffield Health without NHS employment. Jobs and careers at Nuffield Health Our model for professional practice is rooted in the passion that brought us all to a career in healthcare. Educational events Our events are free to attend, open to all Healthcare Professionals and count towards CPD points."
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip to content Search Login Hospitals Gyms Services Advice Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Hospitals The highest standards of clinical care in state-of-the-art facilities, with Consultant-led treatment, spotlessly clean rooms, and a team of dedicated and experienced nurses. Find a hospital Our Hospitals Treatments Tests and scans Conditions Book your consultation For Healthcare Professionals Payment and Insurance Ways to pay Paying for yourself Medical insurance Personal medical loans Pricing Supporting information Patient information NHS Patients Medical assurance Case reviews and procedural changes Handling complaints Open events Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Find out if you benefit from a discounted membership . Gyms The most important thing to us is getting you fit and healthy with our network of fitness experts and cutting-edge facilities. Join a gym Our Gyms Our Locations Gyms in London Book a tour Membership Pricing and Membership Discounts Vitality Discount AXA Health Discount Advice for New Members Services and Facilities Gym services Exercise classes Swimming Lessons & Classes Personal Training Squash Courts Cr\u00e8che Find out if you benefit from a discounted membership . Take a look at our quality and safety measures (including PSIRF) for our clinical services. Services Nuffield Health looks after your health and wellbeing in ways that go beyond getting you fit and getting you back on your feet, that's what makes us specialists in you. View all services Connected Care Health Assessments Physiotherapy Private GP Service Pathology Direct Mental Health Support Personal Training Nuffy Bear Day Nursery Medical Centres Take a look at our quality and safety measures (including PSIRF) for our clinical services. Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Advice Use our list of health topics to reach your destination faster. View all topics Health Topics Back and neck Cancer Cosmetic surgery Mental health Family health Men's health Women's health Stomach, bowel and bladder Vision and eye surgery Fertility treatment Prostate health Weight loss advice Sports training and injury Ski health Skin Joint pain Menopause Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Ways to pay Pay for yourself, use private medical insurance or apply for a personal medical loan. Our experts are here to help guide you through the process. Explore your payment options with the tiles below. Pay for yourself There are no hidden costs in our treatment prices. The price you see is the price you pay. Find out more Personal medical loan Spread the cost of treatment with a 12-month interest-free personal medical loan. Find out more Private medical insurance We work with you and your insurance provider to get you the treatment you need quickly. Find out more Why choose Nuffield Health? Award-winning care 100% of our hospitals have been awarded CQC ratings of Good or Great. Fast access to treatment We cover a wide range of treatments, from MRIs to X-rays, exactly when you need them. Your wellbeing covered Your care doesn't end when you leave hospital. With 111 gyms nationwide, plus physiotherapy, mental health services and more, we're here for you no matter what. Expert clinical care Our experienced consultants will guide you through every step of your treatment. As part of your treatment with us and to ensure we can support you as quickly and smoothly as we can, we will need to take a swipe of your bank card before your procedure. We\u2019ll not take any money without your prior knowledge and will only process information in compliance with our data privacy policy. This is necessary in order to proceed with your treatment, and treatment could be refused if card details are not provided."
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip to content Search Login Hospitals Gyms Services Advice Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Hospitals The highest standards of clinical care in state-of-the-art facilities, with Consultant-led treatment, spotlessly clean rooms, and a team of dedicated and experienced nurses. Find a hospital Our Hospitals Treatments Tests and scans Conditions Book your consultation For Healthcare Professionals Payment and Insurance Ways to pay Paying for yourself Medical insurance Personal medical loans Pricing Supporting information Patient information NHS Patients Medical assurance Case reviews and procedural changes Handling complaints Open events Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Find out if you benefit from a discounted membership . Gyms The most important thing to us is getting you fit and healthy with our network of fitness experts and cutting-edge facilities. Join a gym Our Gyms Our Locations Gyms in London Book a tour Membership Pricing and Membership Discounts Vitality Discount AXA Health Discount Advice for New Members Services and Facilities Gym services Exercise classes Swimming Lessons & Classes Personal Training Squash Courts Cr\u00e8che Find out if you benefit from a discounted membership . Take a look at our quality and safety measures (including PSIRF) for our clinical services. Services Nuffield Health looks after your health and wellbeing in ways that go beyond getting you fit and getting you back on your feet, that's what makes us specialists in you. View all services Connected Care Health Assessments Physiotherapy Private GP Service Pathology Direct Mental Health Support Personal Training Nuffy Bear Day Nursery Medical Centres Take a look at our quality and safety measures (including PSIRF) for our clinical services. Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Advice Use our list of health topics to reach your destination faster. View all topics Health Topics Back and neck Cancer Cosmetic surgery Mental health Family health Men's health Women's health Stomach, bowel and bladder Vision and eye surgery Fertility treatment Prostate health Weight loss advice Sports training and injury Ski health Skin Joint pain Menopause Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Private Medical Insurance You can use your private medical insurance to cover treatments at Nuffield Health hospitals, giving you access to quality care with reduced waiting times. Considering private medical insurance? Usay Compare\u2019s expert advisers can help you find a plan that fits your needs and budget. Read more below. Paying with private medical insurance? Looking for private medical insurance? Paying for your treatment via medical insurance If you are paying for your procedure with medical insurance, then you need to liaise closely with your insurance provider throughout your treatment. You should be aware of the terms and conditions of your policy and let us know if there are any limitations. When you attend the hospital for treatment, please make sure you bring the following: Medical insurance registration documents Completed claim form/proof of pre-authorisation by your medical insurer. GP medical insurance claim sign-off Make sure that your claim form has been signed by your GP and, if required, by your insurance policy provider. In order to meet the admission requirements of many insurance companies, we may need you to provide the date when your symptoms first developed and the date you subsequently visited your GP. How to manage your medical treatment invoice We have an arrangement with many insurance companies that allows us to send your invoice to them electronically. However, at the end of your stay you may receive an invoice for treatment which, together with any consultant bills, should be forwarded to your insurance company. Private medical treatment payment considerations If you don\u2019t have all your insurance details with you when you first come into hospital for treatment, you may be asked to settle your account in full before leaving. As part of your treatment, and to ensure we can support you as quickly and smoothly as we can, we will need to take a swipe of your bank card before your procedure. We won\u2019t take any money without your prior knowledge and will only process information in compliance with our data privacy policy. This is necessary to proceed with your treatment. Treatment could be refused if card details aren\u2019t provided. Additional costs resulting from your stay Additional costs for any extras, such as telephone calls, newspapers and magazines and visitor meals, will be invoiced and must be paid when you leave the hospital. We are happy to answer any questions and help you understand the financial aspect of your treatment. Please note It is possible that you may have an excess on your policy or some charges may not be settled by your insurer or third party. It is Nuffield Health\u2019s policy to request card details as part of the booking process. Your credit/debit card details will only be used to secure payment in the event of any shortfall by your Insurer and you will be notified of the shortfall amount by the hospital. Looking for private medical insurance? As part of our purpose to build a healthier nation, Nuffield Health is delighted to recommend Usay Compare\u2019s free comparison service for private medical insurance . Private medical insurance can be confusing. Usay Compare have answered some common questions below to help. What is private medical insurance? Private medical insurance (or PMI) is a policy that covers the costs and provides access to private medical treatment. When you take out a policy, you and the insurer agree that, should you fall ill or suffer an injury, the policy will attempt to return you to the same level of health you had when you took it out. A private medical insurance policy doesn\u2019t pay out a lump sum \u2013 instead, it usually pays directly for diagnostics and treatment at a private hospital, like Nuffield Health. It\u2019s also worth noting that all policies will require you to be registered with an NHS GP. What are the benefits of private medical care? Health insurance is designed to complement NHS treatment. Benefits of private medical insurance include: Easier access to GP appointments Quicker access to diagnostics Access to a large range of consultants and hospitals. Nuffield Health hospitals offer some incredible benefits to patients, for example: State-of-the-art facilities and private en suite rooms Consultant-led treatment A team of dedicated and experienced nurses. Call today: 01285 701332 Compare quotes About Usay Compare, health insurance comparison experts As the UK\u2019s leading individual private medical insurance intermediary, Usay Compare has helped over 16,500 people find their medical insurance policy. They compare prices and cover from market-leading UK medical insurance companies, such as Aviva, AXA and Bupa. Their service is completely free of charge, and they are totally independent and impartial. Usay Compare is fully authorised and regulated by the Financial Conduct Authority to offer expert advice and recommendations. Genuine care for supporting the health and wellbeing of their community of Usay customers is at the heart of what they do. Their expert advisers will take the time to talk you through your options step by step, so you can make the right decision to protect your health. Compare quotes Usay Compare Trustpilot reviews Trustpilot Why compare medical insurance? Usay Compare offers a free expert health insurance comparison service, saving you the time and effort of comparing policies and understanding the small print. They do all the hard work for you. Their expert advisers are highly trained and will ensure you get the best policy to meet your needs, with the best price guaranteed. Which insurers do Usay Compare work with? Usay Compare work with the UK\u2019s leading health insurance providers, including AXA, Aviva, Bupa, The Exeter, Vitality and WPA. What is a pre-existing condition in private medical insurance and can I get cover? While the term \u2018pre-existing condition\u2019 is somewhat of an umbrella term, it generally refers to any form of medical condition or injury that you had prior to obtaining (or applying for) private health insurance. These can include chronic conditions such as asthma, arthritis, and diabetes, as well as long-term conditions such cancer, HIV and AIDS. Long NHS waiting lists and cancelled or delayed procedures are a common motivation for initial enquiries into health insurance. Depending on the condition, it is unlikely it will be covered on your plan. Although, if you have a pre-existing condition, speak to one of Usay Compare\u2019s expert advisers as different underwriting options may suit your needs. What are the costs of private medical insurance? The cost of your policy depends on what you\u2019re looking for, and it\u2019s important to understand all your options before signing up. Usay Compare\u2019s experts will take the time to understand your requirements and ensure you get the best policy for you. They will also support you when you need to renew or switch your policy. To learn more, please click below, or call Usay Compare\u2019s expert advisers on 01285 701332 . Compare quotes"
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "Skip to content Search Login Hospitals Gyms Services Advice Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Hospitals The highest standards of clinical care in state-of-the-art facilities, with Consultant-led treatment, spotlessly clean rooms, and a team of dedicated and experienced nurses. Find a hospital Our Hospitals Treatments Tests and scans Conditions Book your consultation For Healthcare Professionals Payment and Insurance Ways to pay Paying for yourself Medical insurance Personal medical loans Pricing Supporting information Patient information NHS Patients Medical assurance Case reviews and procedural changes Handling complaints Open events Take a look at our quality and safety measures (including PSIRF) and CQC ratings . Find out if you benefit from a discounted membership . Gyms The most important thing to us is getting you fit and healthy with our network of fitness experts and cutting-edge facilities. Join a gym Our Gyms Our Locations Gyms in London Book a tour Membership Pricing and Membership Discounts Vitality Discount AXA Health Discount Advice for New Members Services and Facilities Gym services Exercise classes Swimming Lessons & Classes Personal Training Squash Courts Cr\u00e8che Find out if you benefit from a discounted membership . Take a look at our quality and safety measures (including PSIRF) for our clinical services. Services Nuffield Health looks after your health and wellbeing in ways that go beyond getting you fit and getting you back on your feet, that's what makes us specialists in you. View all services Connected Care Health Assessments Physiotherapy Private GP Service Pathology Direct Mental Health Support Personal Training Nuffy Bear Day Nursery Medical Centres Take a look at our quality and safety measures (including PSIRF) for our clinical services. Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Advice Use our list of health topics to reach your destination faster. View all topics Health Topics Back and neck Cancer Cosmetic surgery Mental health Family health Men's health Women's health Stomach, bowel and bladder Vision and eye surgery Fertility treatment Prostate health Weight loss advice Sports training and injury Ski health Skin Joint pain Menopause Browse our articles to find trusted information on training, nutrition, getting back to good health and much more. Nuffield Health Find a consultant Book your consultation Schedule your treatment What's included Why choose Nuffield Health? Contact us Contact us Find a consultant Enquire now Enquire Book online now Book online Back to top Paying for your treatment yourself Follow our simple process to find your consultant, schedule your appointments and pay for your treatment. How to book your treatment What's included in your price Why choose Nuffield Health Why choose to pay for yourself Ready to book your initial consultation? Book online now Enquire now Step 1: Find a consultant Online Browse all of our consultants Find a consultant On the phone Call us on 0300 123 1995. Call now Face to face Attend a free hospital event. Find an event *Please be advised, you may require a referral from your GP to book a consultation with one of our consultants. Alternatively, find your nearest hospital and explore consultants Your location or use my current location Central and Midlands East London North Scotland South East South West and Wales List view Map view Bournemouth 67 Lansdowne Road Bournemouth BH1 1RW 01202 291866 View details Brentwood Shenfield Road Brentwood CM15 8EH 01277 695695 View details Brighton Warren Road Brighton BN2 6DX 01273 624 488 View details Bristol 3 Clifton Hill Clifton Bristol BS8 1BN 0117 906 4870 View details Cambridge 4 Trumpington Road Cambridge CB2 8AF 01223 370 922 View details Cardiff and Vale The Vale Hospital Hensol Castle Park Vale of Glamorgan CF72 8JX 02920 836700 View details Cheltenham Hatherley Lane Cheltenham, Gloucestershire GL51 6SY 01242 246500 View details Chester Wrexham Road Chester CH4 7QP 01244 680 444 View details Chichester 78 Broyle Road Chichester PO19 6WB 01243 530600 View details Derby Rykneld Road Derby DE23 4SN 01332 540100 View details Exeter Wonford Road Exeter EX2 4UG 01392 276 591 View details Glasgow 25 Beaconsfield Road Glasgow G12 0PJ 0141 334 9441 View details Guildford Stirling Road Guildford GU2 7RF 01483 555 800 View details Haywards Heath Burrell Road Haywards Heath RH16 1UD 01444 456999 View details Hereford Venns Lane Hereford HR1 1DF 01432 355 131 View details Ipswich Foxhall Road Ipswich IP4 5SW 01473 279100 View details Leeds 2 Leighton Street Leeds LS1 3EB 0113 3227251 View details Leicester Scraptoft Lane Leicester LE5 1HY 0116 2743 753 - option 3 View details Manchester Diagnostic Suite Nelson Street Manchester M13 9NQ 0161 272 5890 View details Manchester Institute of Health & Performance (MIHP) 299 Alan Turing Way Manchester M11 3BS 0161 521 9200 View details Newcastle upon Tyne Clayton Road Newcastle-upon-Tyne NE2 1JP 01912 816 131 View details North Staffordshire Clayton Road Newcastle-under-Lyme ST5 4DB 01782 432227 View details Oxford Beech Road Headington Oxford OX3 7RP 01865 307777 View details Plymouth Derriford Road Plymouth PL6 8BG 01752 775 861 View details Shrewsbury Longden Road Shrewsbury SY3 9DP 01743 282500 View details Taunton Staplegrove Elm Taunton TA2 6AN 01823 286 991 View details Tees Junction Road Norton Stockton on Tees TS20 1PX 01642 360 100 View details Tunbridge Wells Kingswood Road Tunbridge Wells TN2 4UL 01892 531 111 View details Warwickshire The Chase Old Milverton Lane Leamington Spa CV32 6RW 01926 427971 View details Wessex Winchester Road Chandlers Ford Eastleigh SO53 2DW 02380 266 377 View details Woking Shores Road Woking GU21 4BY 01483 227800 View details Wolverhampton Wood Road Tettenhall Wolverhampton WV6 8LE 01902 754177 View details York Haxby Road York YO31 8TA 01372 233890 View details Nuffield Health at St Bartholomew's Hospital 38 Giltspur Street London EC1A 7BS 020 3386 9000 View details Parkside 53 Parkside Wimbledon London SW19 5NX 020 8971 8000 View details Highgate 17-19 View Road Highgate London N6 4DJ 020 8341 4182 View details Edinburgh 40 Colinton Road Edinburgh EH10 5BT 0131 447 2340 View details The Holly High Road Buckhurst Hill Essex IG9 5HX 020 8505 3311 View details View more Step 2: Book your consultation Once you've chosen your preferred hospital and consultant, book an initial appointment at a time that suits you. Book online now Your consultant will discuss your condition and treatment plan, and may conduct tests to help give the best diagnosis. We will then offer you an all-inclusive procedure price with no hidden costs. Discover what's included View our prices Step 3 - Schedule and pay for your treatment If you're happy with your plan and the all-inclusive price, we'll arrange a convenient treatment date for you. We accept payment by debit/credit card, cash* or cheque. Or spread the cost with Chrysalis Finance . When you are ready to pay, call the numbers below. To pay: 01322 466 052 For enquiries: 0330 460 0099 What's included in my price? The Nuffield Health Promise is our pledge to our patients, where we ensure that you receive a clear and transparent price for your treatment, the very best in clinical care, and with no limits on your care. Our quotes include all treatment costs, your stay at hospital, medications and any further aftercare you might need. Discover our price promise View our prices Why choose to pay for yourself By opting to pay for yourself, you are in complete control of your care. Avoid long waiting lists to receive your care exactly when you want it. Choose your own consultant to tailor your treatment exactly to your needs, all while being looked after at one of our award-winning sites. Our transparent, all-inclusive prices also means that there will be no unexpected costs before, during or after your stay with us, including our expert aftercare as well as access to our top quality facilities. Why choose Nuffield Health? Award-winning care 100% of our hospitals have been awarded CQC ratings of Good or Great. Fast access to treatment We cover a wide range of treatments, from MRIs to X-rays, exactly when you need them. Your wellbeing covered Your care doesn't end when you leave the hospital. With 110 gyms nationwide, plus physiotherapy, mental health services and more, we're here for you no matter what. Expert clinical care Our experienced consultants will guide you through every step of your treatment. Book online now Ask a question Fill in the form below and we'll get back to you within two working days. Give us a call on 0300 123 1995 Thank you A member of the team will respond to you soon. First name * Last name * Email * Telephone * How can we help you? * Book a treatment or procedure Information on treatment or procedure Something else What can we help you with? (Optional) Which division of Nuffield Health is your enquiry about? * Please select a division Hospitals Gyms Physio Health Assessments Corporate Fitness Other Which hospital is your question about? * Please select a hospital Derby Hospital Hereford Hospital Leicester Hospital North Staffordshire Hospital Oxford, The Manor Hospital Shrewsbury Hospital Warwickshire Hospital Wolverhampton Hospital Cambridge Hospital Ipswich Hospital The Holly Hospital Highgate Hospital Nuffield Health at St Bartholomew's Hospital Parkside Hospital Chester, The Grosvenor Hospital Leeds Hospital Manchester Diagnostic Suite Manchester East SportCity (MIHP) Manchester Institute of Health & Performance (MIHP) Newcastle upon Tyne Hospital Tees Hospital York Hospital Edinburgh Hospital Glasgow Hospital Brentwood Hospital Brighton Hospital Chichester Hospital Guildford Hospital Haywards Heath Hospital Tunbridge Wells Hospital Wessex Hospital Woking Hospital Bournemouth Hospital Bristol Hospital Cardiff and Vale Hospitals Cheltenham Hospital Exeter Hospital Plymouth Hospital Taunton Hospital Would you like to contact a specific gym? * Please select a gym Would you like to contact a specific physiotherapist? * Please select (if applicable) How will you pay for your treatment or procedure? * Pay for myself Spread the cost Medical Insurance NHS Referral Not applicable Please leave this field blank To continue to receive communications from Nuffield Health about our exclusive offers, products and services, then please tell us how you'd like to be contacted by ticking the relevant boxes below: Email SMS Phone On occasion Nuffield Health may contact you with pertinent service information in regards to services we provide. Note that you can either amend or withdraw your consent at any time. For information about where your personal data may be processed, how it may be processed and for details of our Data Protection Officer, please see our Privacy Policy . I agree to the terms and conditions and privacy policy * Please complete the reCAPTCHA Submit enquiry"
+        }
+      ],
+      "similarity_score": 0.0
+    }
+  ]
+}
