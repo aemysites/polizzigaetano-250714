@@ -1,0 +1,51 @@
+{
+  "originUrl": "https://www.nuffieldhealth.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.nuffieldhealth.com/",
+      "source": "MANUAL",
+      "targetPath": "/",
+      "id": "b95f52746f153ae871260d81e6cbe9e8e6140fc3"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/healthcare-professionals",
+      "source": "MANUAL",
+      "targetPath": "/healthcare-professionals",
+      "id": "cf551ef0e5ab2e384ac73d8171f8d265c8057674"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment",
+      "source": "MANUAL",
+      "targetPath": "/hospitals/paying-for-healthcare-treatment",
+      "id": "ee4aecb59a0a994b23cedf28be80079a78802e6d"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "source": "MANUAL",
+      "targetPath": "/hospitals/paying-for-healthcare-treatment/medical-insurance",
+      "id": "e149aa7aef10762db32dcf79b65a02dc33440f66"
+    },
+    {
+      "url": "https://www.nuffieldhealth.com/hospitals/self-pay",
+      "source": "MANUAL",
+      "targetPath": "/hospitals/self-pay",
+      "id": "06b83da39f2dd6f38c393ec1b2ff3a7e5e9b4861"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
